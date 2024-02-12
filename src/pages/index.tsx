@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 
 const cardsData = [
   { id: "cocoon", title: "Cocoon", language: "Next.js", description: "App development with AI", imageSrc: "/cocoon-logo.png" },
-  { id: "can", title: "beverage can design", language: "illustlator", description: "High-quality branded can design", imageSrc: "can0.png" },
+  { id: "can", title: "beverage can design", language: "illustlator", description: "High-quality branded can design", imageSrc: "can.png" },
   { id: "quiz", title: "Single page quiz app", language: "JavaScript", description: "Natural JavaScript Quiz app in 1 page", imageSrc: "/quizapp.png" },
   { id: "max", title: "PhotoShop poster", language: "Photoshop", description: "Max Verstappen PhotoShop poster", imageSrc: "MaxF1.png" },
   { id: "trade", title: "tradeSquare", language: "Figma", description: "App design for online burtering app", imageSrc: "/TradeSquare.png" },
