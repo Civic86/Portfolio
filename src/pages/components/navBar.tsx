@@ -23,7 +23,7 @@ interface Props {
   children: React.ReactNode
 }
 
-const Links = ['Dashboard', 'Projects', 'Team']
+const Links = ['Home', 'Priducts', 'Contact']
 
 const NavBar = (props: Props) => {
   const { children } = props
@@ -67,16 +67,6 @@ export default function Simple() {
             </HStack>
           </HStack>
         </Flex>
-
-        {isOpen ? (
-          <Box pb={4} display={{ md: 'none' }}>
-            <Stack as={'nav'} spacing={4}>
-              {Links.map((link) => (
-                <NavBar key={link}>{link}</NavBar>
-              ))}
-            </Stack>
-          </Box>
-        ) : null}
       </Box>
     </>
   )

@@ -3,14 +3,15 @@ import CaptionCarousel from "./components/captionCarousel";
 import NavBar2 from "./components/navBar2";
 import { Box, Center, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import Card from "./components/card";
+import Footer from "./components/footer";
 
 const cardsData = [
-  { id: "1", title: "Title 1", language: "Language 1", description: "Description 1", imageSrc: "image1.jpg" },
+  { id: "cocoon", title: "Cocoon", language: "Next.js", description: "App development with AI", imageSrc: "/cocoon-logo.png" },
   { id: "2", title: "Title 2", language: "Language 2", description: "Description 2", imageSrc: "image2.jpg" },
-  { id: "3", title: "Title 3", language: "Language 3", description: "Description 3", imageSrc: "image3.jpg" },
-  { id: "4", title: "Title 4", language: "Language 4", description: "Description 4", imageSrc: "image4.jpg" },
-  { id: "5", title: "Title 5", language: "Language 5", description: "Description 5", imageSrc: "image5.jpg" },
-  { id: "6", title: "Title 6", language: "Language 6", description: "Description 6", imageSrc: "image6.jpg" },
+  { id: "quiz", title: "Single page quiz app", language: "JavaScript", description: "Natural JavaScript Quiz app in 1 page", imageSrc: "/quizapp.png" },
+  { id: "max", title: "PhotoShop poster", language: "Photoshop", description: "Max Verstappen PhotoShop poster", imageSrc: "MaxF1.png" },
+  { id: "trade", title: "tradeSquare", language: "Figma", description: "App design for online burtering app", imageSrc: "/TradeSquare.png" },
+
 ]
 
 export default function Index(): JSX.Element {
@@ -36,6 +37,7 @@ export default function Index(): JSX.Element {
           ))}
         </Grid>
       </Box>
+      <Footer />
 
     </>
   );
