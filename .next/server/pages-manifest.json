@@ -4,6 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/trade": "pages/trade.js",
-  "/quiz": "pages/quiz.js",
-  "/max": "pages/max.js"
+  "/can": "pages/can.js"
 }
