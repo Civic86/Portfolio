@@ -23,7 +23,7 @@ interface Props {
   children: React.ReactNode
 }
 
-const Links = ['Home', 'Priducts', 'Contact']
+const Links = ['Home', 'Products', 'Contact']
 
 const NavBar = (props: Props) => {
   const { children } = props
@@ -59,7 +59,6 @@ export default function Simple() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>Logo</Box>
             <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
               {Links.map((link) => (
                 <NavBar key={link}>{link}</NavBar>

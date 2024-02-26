@@ -3,7 +3,7 @@
 import { Stack, Flex, Button, Text, VStack, useBreakpointValue, Heading, Divider, Container, SimpleGrid, Box, Icon } from '@chakra-ui/react'
 import NavBar from './components/navBar'
 import NavBar2 from './components/navBar2'
-import Image from 'next/image'
+import { Image } from '@chakra-ui/react'
 import { ReactElement } from 'react'
 import Footer from './components/footer'
 import Carousel from './components/simpleCarousel'

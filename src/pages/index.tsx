@@ -19,7 +19,7 @@ export default function Index(): JSX.Element {
     <>
       <NavBar2 />
       <NavBar />
-      <CaptionCarousel/>
+      {/* <CaptionCarousel/> */}
 
       <Box mt={10}>
         <Text textAlign='center' fontSize={"xx-large"}>Products</Text>
