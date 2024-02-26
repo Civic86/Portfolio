@@ -22,7 +22,8 @@ export default function Index(): JSX.Element {
       {/* <CaptionCarousel/> */}
 
       <Box mt={10}>
-        <Text textAlign='center' fontSize={"xx-large"}>Products</Text>
+        <Text textAlign='center' fontSize={"xxx-large"} fontWeight={"Bold"} >Hello, Welcome to Kai Koharazawa's Portfolio!</Text>
+        <Text textAlign='center' fontSize={"xx-large"}mt={48}>Products</Text>
         <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)' }} gap={-5}>
           {cardsData.map(card => (
             <GridItem key={card.id} w='100%' h='auto'>
