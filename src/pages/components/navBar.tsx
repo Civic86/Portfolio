@@ -61,7 +61,7 @@ export default function Simple() {
           <HStack spacing={8} alignItems={'center'}>
             <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
               {Links.map((link) => (
-                <NavBar key={link}>{link}</NavBar>
+                <NavBar key={"/"}>{link}</NavBar>
               ))}
             </HStack>
           </HStack>

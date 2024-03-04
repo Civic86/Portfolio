@@ -8,8 +8,9 @@ import {
   Text,
   useColorModeValue,
   VisuallyHidden,
+  Image
 } from '@chakra-ui/react'
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { ReactNode } from 'react'
 
 const Logo = (props: any) => {
@@ -71,17 +72,14 @@ export default function footer() {
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
-        <Logo />
-        <Text>© 2023 Kai Koharazawa</Text>
+        <Image src="/kai-logo.png" alt="Kai" width={20} />
+        <Text>© 2024 Kai Koharazawa</Text>
         <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'Twitter'} href={'#'}>
-            <FaTwitter />
+          <SocialButton label={'Twitter'} href={'https://github.com/Civic86'}>
+            <FaGithub />
           </SocialButton>
-          <SocialButton label={'YouTube'} href={'#'}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={'Instagram'} href={'#'}>
-            <FaInstagram />
+          <SocialButton label={'YouTube'} href={'https://www.linkedin.com/in/koharazawa-kai-3630aa227/'}>
+            <FaLinkedin />
           </SocialButton>
         </Stack>
       </Container>
