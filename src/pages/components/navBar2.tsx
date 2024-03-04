@@ -58,7 +58,9 @@ export default function navBar2() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <Stack direction={'row'} spacing={6}>
-          <Image src="/kai-logo.png" alt="Kai" height={10} />
+          <a href="/">
+            <Image src="/kai-logo.png" alt="Kai" height={10} />
+          </a>
           <SocialButton label={'Twitter'} href={'https://github.com/Civic86'}>
             <FaGithub />
           </SocialButton>

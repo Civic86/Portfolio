@@ -62,7 +62,7 @@ export default function Index(): JSX.Element {
         </Grid>
         <Box mt={10}>
           <Flex justifyContent="center" alignItems="center" direction="column">
-            <Text textAlign='center' fontSize={"xx-large"} fontWeight={"Bold"} color={'blue.400'} >About Me</Text>
+            <Text textAlign='center' fontSize={"xx-large"} fontWeight={"Bold"} color={'blue.400'} mb={10}>About Me</Text>
             <SplitScreen/>
           </Flex>
         </Box>

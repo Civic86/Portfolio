@@ -46,6 +46,20 @@ export default function WithBackgroundImage() {
             <Text as={'span'} color={'blue.400'}>
               without any Flamework
             </Text>
+            <a href="https://front-end-beta-wheat.vercel.app/">
+              <Button
+                rounded={'full'}
+                bg={'blue.400'}
+                color={'white'}
+                _hover={{
+                  bg: 'blue.500',
+                }}
+                justifyContent="center"
+                alignContent="center"
+              >
+                Check out this project
+              </Button>
+            </a>
           </Heading>
         </Stack>
       </Container>

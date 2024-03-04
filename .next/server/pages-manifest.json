@@ -4,5 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/cocoon": "pages/cocoon.js",
-  "/can": "pages/can.js"
+  "/quiz": "pages/quiz.js"
 }
