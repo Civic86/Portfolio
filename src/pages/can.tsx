@@ -76,9 +76,7 @@ export default function WithBackgroundImage() {
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              This F1 poster was created in Adobe Photoshop 2023. Layer styles, custom brushes, masking and color correction were used to create an energetic and cohesive design.
-              <br />
-              All materials were sourced from Adobe's free resources, which were then processed and edited. The result is a very artistic piece of work.            </Text>
+              Illustrator was used to create beverage design and branding for a fictitious company. Here, we actually created a logo to represent the company, which was then used as the basis for designs for each of the three flavors. We then used Photoshop to generate natural composite photos for the mock-up production.</Text>
           </Stack>
         </Flex>
         <Flex flex={1}>

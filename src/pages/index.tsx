@@ -33,7 +33,7 @@ export default function Index(): JSX.Element {
           >
             <Box borderRadius="50%" overflow="hidden" height={300} width={300}>
               <Image
-                src="/kai.jpg"
+                src={'/Kai.jpg'}
                 alt="Kai"
                 style={{
                   width: "100%",
@@ -62,7 +62,7 @@ export default function Index(): JSX.Element {
         </Grid>
         <Box mt={10}>
           <Flex justifyContent="center" alignItems="center" direction="column">
-            <Text textAlign='center' fontSize={"xx-large"} fontWeight={"Bold"} color={'blue.400'} mb={10}>About Me</Text>
+            <Text textAlign='center' fontSize={"xx-large"} fontWeight={"Bold"} color={'blue.400'} mb={10}>About Myself</Text>
             <SplitScreen/>
           </Flex>
         </Box>
